@@ -52,3 +52,19 @@
     sprite: Corvax/Clothing/Shoes/Specific/schoolwhiteshoes.rsi
   - type: Clothing
     sprite: Corvax/Clothing/Shoes/Specific/schoolwhiteshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesElite
+  name: boots elite
+  description: A silent style that underscores your status. These black shoes with a minimalist silhouette and subtle gold accents will complete the mime’s look with flawless precision.
+  components:
+  - type: Sprite
+    sprite: Corvax/Clothing/Shoes/Specific/elitemimeshoes.rsi
+  - type: Clothing
+    sprite: Corvax/Clothing/Shoes/Specific/elitemimeshoes.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 1.05
+    sprintModifier: 1.1
+  - type: FootstepModifier
+    footstepSoundCollection: null
