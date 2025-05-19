@@ -85,3 +85,14 @@
       sprite: Corvax/Clothing/Uniforms/Jumpsuit/rd_classical.rsi
     - type: Clothing
       sprite: Corvax/Clothing/Uniforms/Jumpsuit/rd_classical.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMimeElite
+  name: mime elite suit
+  description: The embodiment of silent authority and refined theatricality. This is more than just an outfit — it's a wordless performance that leaves a lasting impression before the first gesture is even made.
+  components:
+  - type: Sprite
+    sprite: Corvax/Clothing/Uniforms/Jumpsuit/elitemime.rsi
+  - type: Clothing
+    sprite: Corvax/Clothing/Uniforms/Jumpsuit/elitemime.rsi

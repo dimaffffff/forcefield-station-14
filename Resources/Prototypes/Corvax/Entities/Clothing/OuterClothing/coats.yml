@@ -119,3 +119,21 @@
         Blunt: 0.9
         Slash: 0.9
         Piercing: 0.8
+
+- type: entity
+  parent: ClothingOuterCoatDetectiveLoadout
+  id: ClothingOuterCoatDetectiveElite
+  name: mime elite trenchcoat
+  description: A heavy dark cloak with noble gold accents enhances the aura of mystery and theatrical grandeur. Paired with the mask, it creates perfect harmony, emphasizing the wearer’s status and refined taste. This ensemble is a silent statement — one of power, enigma, and elegant drama.
+  components:
+    - type: Sprite
+      sprite: Corvax/Clothing/OuterClothing/Coats/elitemime.rsi
+    - type: Clothing
+      sprite: Corvax/Clothing/OuterClothing/Coats/elitemime.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.7
+          Slash: 0.6
+          Piercing: 0.6
+          Heat: 0.8

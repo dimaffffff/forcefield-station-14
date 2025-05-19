@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingMaskMime
+  id: ClothingEliteMaskMime
+  name: элитная маска мима
+  description: Роскошная интерпретация классического образа мима. Эта маска сочетает в себе традиционные черты с жутковатым выражением лица и изысканную чёрно-золотую цветовую палитру. Подходит для тех, кто хочет выделиться и добавить нотку зловещей элегантности в свой образ.
+  components:
+  - type: Sprite
+    sprite: Corvax/Clothing/Head/Masks/elitemime.rsi
+  - type: Clothing
+    sprite: Corvax/Clothing/Head/Masks/elitemime.rsi
