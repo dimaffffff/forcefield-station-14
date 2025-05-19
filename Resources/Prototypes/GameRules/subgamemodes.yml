@@ -43,7 +43,7 @@
     definitions:
     - prefRoles: [ Wizard ]
       max: 1
-      playerRatio: 1
+      playerRatio: 30
       spawnerPrototype: SpawnPointGhostWizard
       roleLoadout:
       - RoleSurvivalExtended
